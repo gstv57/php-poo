@@ -5,6 +5,11 @@ class Pessoa {
     private $email;
     private $senha;
 
+    public function __construct($nome, $email, $senha){
+        $this->setNome($nome); 
+        $this->setEmail($email);
+        $this->setSenha($senha);
+    }
     // prática referente a setters e getters.
     // set =  detentores
     // get =  obtentores  
@@ -48,5 +53,3 @@ class Pessoa {
         }
     }
 }
-
-
