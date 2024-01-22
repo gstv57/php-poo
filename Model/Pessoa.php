@@ -47,7 +47,7 @@ class Pessoa {
     {
         if($this->email == 'gustavo@example.com' and $this->senha == '10203040')
         {
-            echo "logado com sucesso";
+            echo "logado com sucesso<br></br>";
         } else {
             die("dados de login incorreto.");
         }
